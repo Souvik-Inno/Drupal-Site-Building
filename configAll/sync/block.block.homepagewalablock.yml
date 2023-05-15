@@ -1,0 +1,30 @@
+uuid: 2cb24d97-036f-4a71-b052-11bc32c605bc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:811660bc-59e3-4933-94f5-5a2bead87d11'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: homepagewalablock
+theme: bootstrap
+region: header
+weight: -3
+provider: null
+plugin: 'block_content:811660bc-59e3-4933-94f5-5a2bead87d11'
+settings:
+  id: 'block_content:811660bc-59e3-4933-94f5-5a2bead87d11'
+  label: 'Home Page Wala Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node

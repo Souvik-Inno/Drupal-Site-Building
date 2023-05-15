@@ -1,0 +1,23 @@
+uuid: d49c7284-3ee6-48b5-ad8e-e2cb711f16cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.review
+id: node.review.field_rating
+field_name: field_rating
+entity_type: node
+bundle: review
+label: Rating
+description: 'The subjective rating (out of 10) of the guitar being reviewed.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

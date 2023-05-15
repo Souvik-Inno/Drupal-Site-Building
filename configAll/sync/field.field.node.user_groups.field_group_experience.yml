@@ -1,0 +1,21 @@
+uuid: 3997b1be-16b9-4be1-8f87-c7b6134d30c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_experience
+    - node.type.user_groups
+  module:
+    - options
+id: node.user_groups.field_group_experience
+field_name: field_group_experience
+entity_type: node
+bundle: user_groups
+label: 'Group Experience'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

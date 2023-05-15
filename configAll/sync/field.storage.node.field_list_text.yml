@@ -1,0 +1,30 @@
+uuid: 7edc1275-233c-43d5-aeab-7103cf51a0c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_list_text
+field_name: field_list_text
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: hii
+      label: hii
+    -
+      value: hello
+      label: hello
+    -
+      value: hi
+      label: hi
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: 131021a4-7da2-4eaf-a5e4-ddbf831cc6a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.drupal_feedback
+id: contact_message.drupal_feedback
+target_entity_type_id: contact_message
+target_bundle: drupal_feedback
+default_langcode: site_default
+language_alterable: false

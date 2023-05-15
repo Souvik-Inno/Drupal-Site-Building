@@ -1,0 +1,25 @@
+uuid: be59bef2-481b-42ad-83f4-8f1d6cdbc5ec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:03b4d105-ba4f-4543-bf55-53d2c06a937f'
+  module:
+    - block_content
+  theme:
+    - zuvi
+id: welcometomynewblock
+theme: zuvi
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:03b4d105-ba4f-4543-bf55-53d2c06a937f'
+settings:
+  id: 'block_content:03b4d105-ba4f-4543-bf55-53d2c06a937f'
+  label: 'Welcome to my new block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 684c3b1f-0884-4f1c-b855-761ff47384b1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:testing_different_themes:870747a2-ce6d-41b5-bf8f-c31641946c30'
+  module:
+    - block_content
+    - node
+  theme:
+    - zuvi
+id: thisisheadingtester_2
+theme: zuvi
+region: highlighted
+weight: -6
+provider: null
+plugin: 'block_content:870747a2-ce6d-41b5-bf8f-c31641946c30'
+settings:
+  id: 'block_content:870747a2-ce6d-41b5-bf8f-c31641946c30'
+  label: 'This is heading tester'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

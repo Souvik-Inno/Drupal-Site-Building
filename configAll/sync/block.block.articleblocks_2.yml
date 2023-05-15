@@ -1,0 +1,33 @@
+uuid: 4eca875e-eb83-41a2-a1c7-0c8d01c3bf76
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+  module:
+    - block_content
+    - node
+  theme:
+    - claro
+id: articleblocks_2
+theme: claro
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+settings:
+  id: 'block_content:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+  label: 'Article Blocks'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

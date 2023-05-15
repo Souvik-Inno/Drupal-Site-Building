@@ -1,0 +1,48 @@
+uuid: 45b20499-bbdb-4347-83d0-abeb1747f391
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: styles
+label: styles
+code: |
+  body {
+  	overflow-x: hidden;
+  }
+
+  .region-navigation-collapsible {
+  	display: flex;
+  	align-items: center;
+  }
+
+  .navbar img {
+  	height: 100px;
+  	width: 100px;
+  	border-radius: 100%;
+  }
+
+  .navbar-nav {
+  	display: flex;
+  	flex-wrap: wrap;
+  	width: 600px;
+  	align-items: center;
+  }
+
+  .region-navigation {
+  	display: flex;
+  	align-items: center;
+  }
+  .navbar-default .navbar-nav > li > a[href="/user/logout"] {
+  	background: red;
+  	color: white;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: bootstrap
+contexts: {  }
+conditions_require_all: true

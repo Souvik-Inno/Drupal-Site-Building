@@ -1,0 +1,24 @@
+uuid: 19fccc50-f68c-49ba-8200-98350141c995
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_its_today_s_date
+    - node.type.deepak
+  module:
+    - datetime
+id: node.deepak.field_its_today_s_date
+field_name: field_its_today_s_date
+entity_type: node
+bundle: deepak
+label: "its today's date"
+description: "today's date"
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

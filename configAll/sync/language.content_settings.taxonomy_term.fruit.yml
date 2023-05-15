@@ -1,0 +1,11 @@
+uuid: d92ee1b9-aa8c-4ddb-8ca7-b6ff82d32aae
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fruit
+id: taxonomy_term.fruit
+target_entity_type_id: taxonomy_term
+target_bundle: fruit
+default_langcode: site_default
+language_alterable: false

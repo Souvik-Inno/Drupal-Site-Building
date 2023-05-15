@@ -1,0 +1,33 @@
+uuid: 5ed31ac9-d0bf-4d80-9a64-993856e11500
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+  module:
+    - block_content
+    - node
+  theme:
+    - zuvi
+id: articleblocks_3
+theme: zuvi
+region: highlighted
+weight: -7
+provider: null
+plugin: 'block_content:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+settings:
+  id: 'block_content:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+  label: 'Article Blocks'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

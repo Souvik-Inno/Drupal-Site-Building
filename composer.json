@@ -18,13 +18,15 @@
         "composer/installers": "^2.0",
         "drupal/asset_injector": "^2.16",
         "drupal/bootstrap": "^3.28",
-        "drupal/core-composer-scaffold": "10.0.8",
-        "drupal/core-project-message": "10.0.8",
-        "drupal/core-recommended": "10.0.8",
+        "drupal/core-composer-scaffold": "10.0.9",
+        "drupal/core-project-message": "10.0.9",
+        "drupal/core-recommended": "10.0.9",
         "drupal/ctools": "^4.0",
         "drupal/devel_php": "^1.5",
         "drupal/quickedit": "^1.0",
         "drupal/smtp": "^1.2",
+        "drupal/taxonomy_manager": "^2.0",
+        "drupal/views_taxonomy_term_name_depth": "^7.2",
         "drupal/zuvi": "^10.1"
     },
     "conflict": {

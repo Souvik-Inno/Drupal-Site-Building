@@ -1,0 +1,38 @@
+uuid: e9914ef7-76bd-4891-bd6a-c9872c20d9ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page_custom.body
+    - field.field.node.page_custom.field_page_text
+    - node.type.page_custom
+  module:
+    - text
+    - user
+id: node.page_custom.default
+targetEntityType: node
+bundle: page_custom
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_page_text:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

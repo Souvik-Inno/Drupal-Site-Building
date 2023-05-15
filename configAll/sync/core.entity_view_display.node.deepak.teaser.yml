@@ -1,0 +1,35 @@
+uuid: 44b34610-76ce-4486-90aa-f8edb8876e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.deepak.body
+    - field.field.node.deepak.field_its_today_s_date
+    - field.field.node.deepak.field_list_text
+    - node.type.deepak
+  module:
+    - text
+    - user
+id: node.deepak.teaser
+targetEntityType: node
+bundle: deepak
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_its_today_s_date: true
+  field_list_text: true
+  langcode: true
