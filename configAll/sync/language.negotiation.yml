@@ -6,8 +6,12 @@ url:
   source: path_prefix
   prefixes:
     en: ''
-    hi: hi
+    de: de
+    ru: ru
+    ar: ar
   domains:
-    en: ''
-    hi: ''
+    en: drupalWorks.com
+    de: de.drupalWorks.com
+    ru: ru.drupalWorks.com
+    ar: ar.drupalWorks.com
 selected_langcode: site_default

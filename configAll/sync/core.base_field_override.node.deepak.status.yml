@@ -1,0 +1,22 @@
+uuid: 39debe31-00a0-416b-9b0b-6152ef130a0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deepak
+id: node.deepak.status
+field_name: status
+entity_type: node
+bundle: deepak
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

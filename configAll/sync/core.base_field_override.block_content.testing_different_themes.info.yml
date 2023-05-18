@@ -1,0 +1,18 @@
+uuid: 89dea601-f3f6-4c67-93f4-a6ffb3752298
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testing_different_themes
+id: block_content.testing_different_themes.info
+field_name: info
+entity_type: block_content
+bundle: testing_different_themes
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

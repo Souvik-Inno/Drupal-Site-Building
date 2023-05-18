@@ -1,0 +1,18 @@
+uuid: bb403bba-4ee5-4361-b65e-1e507c16071d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.review
+id: node.review.changed
+field_name: changed
+entity_type: node
+bundle: review
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -12,7 +12,7 @@ bundle: review
 label: Type
 description: 'Type of the Guitar being reviewed ("electric", "acoustic", etc).'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

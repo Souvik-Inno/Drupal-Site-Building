@@ -1,0 +1,18 @@
+uuid: 09102628-17b7-406b-9be7-8eaed8f11c42
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.review
+id: node.review.created
+field_name: created
+entity_type: node
+bundle: review
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

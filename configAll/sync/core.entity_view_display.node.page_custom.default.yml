@@ -5,8 +5,10 @@ dependencies:
   config:
     - field.field.node.page_custom.body
     - field.field.node.page_custom.field_page_text
+    - field.field.node.page_custom.field_video
     - node.type.page_custom
   module:
+    - file
     - text
     - user
 id: node.page_custom.default
@@ -28,6 +30,20 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_video:
+    type: file_video
+    label: above
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+      muted: false
+      width: 640
+      height: 480
+    third_party_settings: {  }
+    weight: 103
     region: content
   links:
     settings: {  }

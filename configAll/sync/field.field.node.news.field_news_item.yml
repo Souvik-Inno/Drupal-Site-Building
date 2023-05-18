@@ -12,7 +12,7 @@ bundle: news
 label: 'News Item'
 description: 'News item contains news.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

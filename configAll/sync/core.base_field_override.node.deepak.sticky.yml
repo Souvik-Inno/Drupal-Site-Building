@@ -1,0 +1,22 @@
+uuid: bb271f13-2172-4cee-aa9e-eef4bb54ccc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deepak
+id: node.deepak.sticky
+field_name: sticky
+entity_type: node
+bundle: deepak
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

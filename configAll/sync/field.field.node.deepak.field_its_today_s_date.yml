@@ -14,7 +14,7 @@ bundle: deepak
 label: "its today's date"
 description: "today's date"
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     default_date_type: now

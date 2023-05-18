@@ -1,9 +1,0 @@
-uuid: 4e961ce3-5036-4db5-834b-96b873a66dd0
-langcode: hi
-status: true
-dependencies: {  }
-id: hi
-label: Hindi
-direction: ltr
-weight: 1
-locked: false
