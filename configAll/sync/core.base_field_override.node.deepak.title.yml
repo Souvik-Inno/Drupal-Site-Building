@@ -1,0 +1,18 @@
+uuid: 0aab1b5e-ef3e-4f9c-95ee-6432ade79a2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deepak
+id: node.deepak.title
+field_name: title
+entity_type: node
+bundle: deepak
+label: Deep
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

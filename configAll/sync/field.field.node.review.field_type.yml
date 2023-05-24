@@ -1,0 +1,19 @@
+uuid: 904946e0-a98c-4397-8a67-990a1a41819b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.review
+id: node.review.field_type
+field_name: field_type
+entity_type: node
+bundle: review
+label: Type
+description: 'Type of the Guitar being reviewed ("electric", "acoustic", etc).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

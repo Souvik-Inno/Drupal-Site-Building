@@ -1,0 +1,18 @@
+uuid: ac430f2f-7729-422f-a9ff-842df55a3010
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: News
+type: news
+description: 'News contains knowledge of around the world.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

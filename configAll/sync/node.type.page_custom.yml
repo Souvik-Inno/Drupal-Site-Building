@@ -1,0 +1,18 @@
+uuid: f7b3a2b9-ec32-4088-af3b-76548cce1e9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Page
+type: page_custom
+description: 'Its a content type for describing page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

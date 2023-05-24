@@ -1,0 +1,22 @@
+uuid: 9a567ae3-b260-4ec8-a450-f1e34a8ccf5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fruit
+id: taxonomy_term.fruit.status
+field_name: status
+entity_type: taxonomy_term
+bundle: fruit
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

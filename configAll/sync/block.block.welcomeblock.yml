@@ -1,0 +1,30 @@
+uuid: 2b3cec5e-8e7d-42eb-afd1-aded0399817b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:22200f24-b007-4839-9075-1f6e26126704'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: welcomeblock
+theme: bootstrap
+region: header
+weight: -6
+provider: null
+plugin: 'block_content:22200f24-b007-4839-9075-1f6e26126704'
+settings:
+  id: 'block_content:22200f24-b007-4839-9075-1f6e26126704'
+  label: 'There is more to just welcome'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /artk2

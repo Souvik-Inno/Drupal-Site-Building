@@ -1,0 +1,20 @@
+uuid: 1b6061c2-f5f9-4179-a98c-da9cac90b94b
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_block_module
+  theme:
+    - bootstrap
+id: blockmoduleexample
+theme: bootstrap
+region: highlighted
+weight: -11
+provider: null
+plugin: custom_block_module_block_module_example
+settings:
+  id: custom_block_module_block_module_example
+  label: 'Block Module Example'
+  label_display: visible
+  provider: custom_block_module
+visibility: {  }

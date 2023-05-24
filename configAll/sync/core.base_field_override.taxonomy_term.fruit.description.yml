@@ -1,0 +1,20 @@
+uuid: e3b8bd09-8561-4f7a-8b17-130ccdff80e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fruit
+  module:
+    - text
+id: taxonomy_term.fruit.description
+field_name: description
+entity_type: taxonomy_term
+bundle: fruit
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

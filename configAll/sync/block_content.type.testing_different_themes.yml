@@ -1,0 +1,8 @@
+uuid: 6f0d998b-7594-4aa3-a103-ccd3843ff298
+langcode: en
+status: true
+dependencies: {  }
+id: testing_different_themes
+label: 'Testing different themes'
+revision: 0
+description: 'Just to test a bug'

@@ -1,0 +1,23 @@
+uuid: ea448f26-706b-48a6-b62c-17fa2024416c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testing_different_themes
+    - field.field.block_content.testing_different_themes.body
+  module:
+    - text
+id: block_content.testing_different_themes.default
+targetEntityType: block_content
+bundle: testing_different_themes
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

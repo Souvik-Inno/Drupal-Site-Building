@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 808d1f0c-4256-400f-9d15-ee818eed7f43
+name: 'Drupal Training'
+mail: souvik.banerjee@innoraft.com
+slogan: 'The best place to understand Drupal concepts'
+page:
+  403: /node/2
+  404: /node/3
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: souvikemailer@gmail.com

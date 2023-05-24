@@ -1,0 +1,13 @@
+label: 'Neuesten Nachrichten'
+display:
+  default:
+    display_options:
+      filters:
+        field_category_target_id:
+          group_info:
+            description: ''
+  page_1:
+    display_title: Buchseite
+    display_options:
+      menu:
+        title: 'Neuesten Nachrichten'

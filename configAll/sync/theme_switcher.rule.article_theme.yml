@@ -1,0 +1,19 @@
+uuid: a021514f-95c9-4016-8897-8527c8dc205a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: article_theme
+label: 'Article Theme'
+weight: 0
+theme: zuvi
+admin_theme: bootstrap
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

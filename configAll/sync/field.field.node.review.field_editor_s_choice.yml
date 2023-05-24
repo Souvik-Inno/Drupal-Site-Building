@@ -1,0 +1,23 @@
+uuid: 74b69ba1-0d38-4040-b511-60ff37c180d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_editor_s_choice
+    - node.type.review
+id: node.review.field_editor_s_choice
+field_name: field_editor_s_choice
+entity_type: node
+bundle: review
+label: "Editor's Choice"
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: "Editor's choice"
+  off_label: 'Off'
+field_type: boolean

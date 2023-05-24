@@ -1,0 +1,8 @@
+uuid: cf04ef54-7262-484a-bbea-53d9eb639aa9
+langcode: en
+status: true
+dependencies: {  }
+id: page_block
+label: 'Page Block'
+revision: 0
+description: 'Block which contains page.'

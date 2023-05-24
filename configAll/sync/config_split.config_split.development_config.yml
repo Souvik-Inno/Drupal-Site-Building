@@ -1,0 +1,17 @@
+uuid: f0ffbe68-b900-407c-bc9c-c697f2ac6ec2
+langcode: en
+status: true
+dependencies: {  }
+id: development_config
+label: 'development config'
+description: 'Configuration split for development purposes.'
+weight: 0
+folder: ../configAll/development
+module:
+  asset_injector: 0
+  devel: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

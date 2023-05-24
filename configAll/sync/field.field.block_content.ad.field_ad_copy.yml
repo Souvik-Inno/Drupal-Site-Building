@@ -1,0 +1,21 @@
+uuid: 82462cf2-2cd0-46db-96be-b07447be4f8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad
+    - field.storage.block_content.field_ad_copy
+  module:
+    - text
+id: block_content.ad.field_ad_copy
+field_name: field_ad_copy
+entity_type: block_content
+bundle: ad
+label: 'Ad copy'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

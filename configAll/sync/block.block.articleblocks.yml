@@ -1,0 +1,33 @@
+uuid: 98c413ff-425c-4008-9d12-4c217a3b29c3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+  module:
+    - block_content
+    - node
+  theme:
+    - bootstrap
+id: articleblocks
+theme: bootstrap
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+settings:
+  id: 'block_content:da3ada4b-00f9-4ac5-8653-9469904ea06b'
+  label: 'Article Wala Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

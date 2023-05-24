@@ -1,0 +1,49 @@
+uuid: 1984fce9-b620-44ab-85d9-5ca49d5329b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.deepak.body
+    - field.field.node.deepak.field_its_today_s_date
+    - field.field.node.deepak.field_list_text
+    - node.type.deepak
+  module:
+    - datetime
+    - options
+    - text
+    - user
+id: node.deepak.default
+targetEntityType: node
+bundle: deepak
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_its_today_s_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_list_text:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

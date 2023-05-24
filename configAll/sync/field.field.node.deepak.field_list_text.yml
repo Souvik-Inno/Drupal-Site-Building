@@ -1,0 +1,21 @@
+uuid: beb35b5f-d9e6-4fb4-bc44-c2fa98c81008
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_text
+    - node.type.deepak
+  module:
+    - options
+id: node.deepak.field_list_text
+field_name: field_list_text
+entity_type: node
+bundle: deepak
+label: 'list text'
+description: 'list help'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

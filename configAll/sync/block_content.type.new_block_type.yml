@@ -1,0 +1,8 @@
+uuid: a1f5662e-4aa6-4890-b63c-58c3ff34a2e7
+langcode: en
+status: true
+dependencies: {  }
+id: new_block_type
+label: 'new block type'
+revision: 0
+description: ''

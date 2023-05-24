@@ -1,0 +1,18 @@
+uuid: 16ed268c-5c82-403d-8489-8ba54292f7ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deepak
+id: node.deepak.created
+field_name: created
+entity_type: node
+bundle: deepak
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

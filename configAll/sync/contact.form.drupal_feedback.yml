@@ -1,0 +1,12 @@
+uuid: ba4a5d11-5c6b-4306-bcee-599e416fa02f
+langcode: en
+status: true
+dependencies: {  }
+id: drupal_feedback
+label: 'Drupal feedback'
+recipients:
+  - souvikbanerjee73@gmail.com
+reply: ''
+weight: 0
+message: 'This is a message you know by who'
+redirect: ''

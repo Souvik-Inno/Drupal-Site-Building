@@ -1,0 +1,10 @@
+uuid: 9a86c743-e99a-4e36-ba09-5b6ff363497c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.content_form_test
+label: 'Content Form Test'
+targetEntityType: node
+cache: true

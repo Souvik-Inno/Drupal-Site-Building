@@ -1,0 +1,15 @@
+uuid: 953b8ff2-e6aa-4c3f-877b-858539c51332
+langcode: en
+status: true
+dependencies: {  }
+name: circular
+label: circular
+effects:
+  e58bee56-c4c2-41a2-a7ba-d25bbf9fb7d4:
+    uuid: e58bee56-c4c2-41a2-a7ba-d25bbf9fb7d4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center

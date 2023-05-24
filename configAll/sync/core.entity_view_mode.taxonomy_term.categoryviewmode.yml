@@ -1,0 +1,10 @@
+uuid: 6e11a112-1d3a-428e-80c3-1507f2da93ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.categoryviewmode
+label: CategoryViewMode
+targetEntityType: taxonomy_term
+cache: true

@@ -1,0 +1,20 @@
+uuid: 095e2e54-29a3-451f-a13d-375b412e368c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.review
+id: node.review.uid
+field_name: uid
+entity_type: node
+bundle: review
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

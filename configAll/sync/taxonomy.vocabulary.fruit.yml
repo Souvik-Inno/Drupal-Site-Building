@@ -1,0 +1,8 @@
+uuid: ec82dbce-e468-4ab1-aaaf-0d273f13b314
+langcode: en
+status: true
+dependencies: {  }
+name: fruit
+vid: fruit
+description: 'Testing the taxonomy part'
+weight: 0
