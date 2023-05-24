@@ -19,6 +19,7 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/asset_injector": "^2.16",
         "drupal/bootstrap": "^3.28",
+        "drupal/classy": "^1.0",
         "drupal/config_split": "^1.9",
         "drupal/core-composer-scaffold": "10.0.9",
         "drupal/core-project-message": "10.0.9",
