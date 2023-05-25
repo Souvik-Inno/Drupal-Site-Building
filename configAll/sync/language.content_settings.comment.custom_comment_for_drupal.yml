@@ -1,0 +1,16 @@
+uuid: 63f3e87c-4eb0-4a59-bffe-13d8bb4bdc11
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment_for_drupal
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: comment.custom_comment_for_drupal
+target_entity_type_id: comment
+target_bundle: custom_comment_for_drupal
+default_langcode: site_default
+language_alterable: false

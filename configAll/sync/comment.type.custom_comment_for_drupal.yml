@@ -1,0 +1,8 @@
+uuid: fc70c45b-bd43-4cc4-96c4-5391e14cc70f
+langcode: en
+status: true
+dependencies: {  }
+id: custom_comment_for_drupal
+label: 'Custom Comment for drupal'
+target_entity_type_id: node
+description: 'Customization of content for learning purposes.'

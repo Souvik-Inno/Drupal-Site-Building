@@ -1,0 +1,33 @@
+uuid: adc79082-d514-4e89-9eca-fb4756a6e0a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - language
+    - system
+  theme:
+    - custom_theme
+id: custom_theme_header
+theme: custom_theme
+region: branding
+weight: -8
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: Header
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en

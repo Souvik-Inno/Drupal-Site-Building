@@ -1,0 +1,57 @@
+uuid: 88cd4ce8-6680-402b-b9c2-7f6f45e98561
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment_for_drupal
+    - field.field.comment.custom_comment_for_drupal.comment_body
+    - field.field.comment.custom_comment_for_drupal.field_video_for_comment
+  module:
+    - file
+    - text
+id: comment.custom_comment_for_drupal.default
+targetEntityType: comment
+bundle: custom_comment_for_drupal
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_video_for_comment:
+    type: file_generic
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

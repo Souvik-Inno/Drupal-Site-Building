@@ -1,0 +1,11 @@
+uuid: 9e22d4d2-0744-4414-8c06-43a17af8b20d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sample_practice
+id: node.sample_practice
+target_entity_type_id: node
+target_bundle: sample_practice
+default_langcode: und
+language_alterable: false

@@ -1,0 +1,44 @@
+uuid: 14759ce6-b9d2-4723-bf0a-c15293c8bc11
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment_for_drupal
+    - field.field.comment.custom_comment_for_drupal.comment_body
+    - field.field.comment.custom_comment_for_drupal.field_video_for_comment
+  module:
+    - file
+    - text
+id: comment.custom_comment_for_drupal.default
+targetEntityType: comment
+bundle: custom_comment_for_drupal
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_video_for_comment:
+    type: file_video
+    label: above
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+      muted: false
+      width: 640
+      height: 480
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

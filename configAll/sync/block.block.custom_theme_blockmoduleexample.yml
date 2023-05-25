@@ -1,0 +1,20 @@
+uuid: c38e23ee-3857-48e5-82c4-81828ee27973
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_block_module
+  theme:
+    - custom_theme
+id: custom_theme_blockmoduleexample
+theme: custom_theme
+region: branding
+weight: -11
+provider: null
+plugin: custom_block_module_block_module_example
+settings:
+  id: custom_block_module_block_module_example
+  label: 'Block Module Example'
+  label_display: visible
+  provider: custom_block_module
+visibility: {  }

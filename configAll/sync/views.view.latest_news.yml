@@ -498,6 +498,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      css_class: latest_news
       use_ajax: true
       use_more: true
       use_more_always: true

@@ -4,7 +4,3 @@ display:
     display_title: 'по умолчанию'
     display_options:
       title: 'Последние новости'
-      filters:
-        field_category_target_id:
-          group_info:
-            description: ''

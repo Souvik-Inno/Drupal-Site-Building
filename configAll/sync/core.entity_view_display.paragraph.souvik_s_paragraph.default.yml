@@ -1,0 +1,38 @@
+uuid: 3bc9eb94-d1e1-4e27-b55f-d9c132e5edcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.souvik_s_paragraph.field_paragraph_text
+    - field.field.paragraph.souvik_s_paragraph.field_paragraph_video
+    - paragraphs.paragraphs_type.souvik_s_paragraph
+  module:
+    - file
+id: paragraph.souvik_s_paragraph.default
+targetEntityType: paragraph
+bundle: souvik_s_paragraph
+mode: default
+content:
+  field_paragraph_text:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_paragraph_video:
+    type: file_video
+    label: above
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+      muted: false
+      width: 640
+      height: 480
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

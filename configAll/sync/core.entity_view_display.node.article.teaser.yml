@@ -6,7 +6,9 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_custom_comment_for_article
     - field.field.node.article.field_image
+    - field.field.node.article.field_paragraph_field
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
@@ -50,5 +52,7 @@ content:
     region: content
 hidden:
   comment: true
+  field_custom_comment_for_article: true
+  field_paragraph_field: true
   langcode: true
   links: true

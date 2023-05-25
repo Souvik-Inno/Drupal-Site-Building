@@ -1,0 +1,18 @@
+uuid: ddc8c552-3d1f-4d2d-be5c-0f5a1e27e489
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sample_practice
+id: node.sample_practice.title
+field_name: title
+entity_type: node
+bundle: sample_practice
+label: 'Sample Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

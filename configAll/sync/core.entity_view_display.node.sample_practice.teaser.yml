@@ -1,0 +1,33 @@
+uuid: c4e1c41a-fd60-41d4-bf24-8fbbdbd83d52
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sample_practice.body
+    - field.field.node.sample_practice.field_article_reference
+    - node.type.sample_practice
+  module:
+    - text
+    - user
+id: node.sample_practice.teaser
+targetEntityType: node
+bundle: sample_practice
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_article_reference: true
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: a33ecff8-59ca-425f-9646-5a5cb724fb7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment_for_drupal
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.custom_comment_for_drupal.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: custom_comment_for_drupal
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

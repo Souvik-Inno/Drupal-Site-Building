@@ -10,8 +10,12 @@ folder: ../configAll/development
 module:
   asset_injector: 0
   devel: 0
+  devel_generate: 0
+  devel_php: 0
 theme: {  }
-blacklist: {  }
+blacklist:
+  - devel.settings
+  - devel.toolbar.settings
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true

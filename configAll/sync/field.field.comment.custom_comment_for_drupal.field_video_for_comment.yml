@@ -1,0 +1,27 @@
+uuid: 66922fd4-ae6a-494f-832a-53220fe3103f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment_for_drupal
+    - field.storage.comment.field_video_for_comment
+  module:
+    - file
+id: comment.custom_comment_for_drupal.field_video_for_comment
+field_name: field_video_for_comment
+entity_type: comment
+bundle: custom_comment_for_drupal
+label: 'Video for comment'
+description: 'Video for comment section.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: mp4
+  max_filesize: '5 MB'
+  description_field: false
+field_type: file

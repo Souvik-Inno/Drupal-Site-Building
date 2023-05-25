@@ -1,0 +1,33 @@
+uuid: bb07aa51-b366-4f92-b6e4-bb4d1a69734a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:a6d8dca6-68fc-4d81-b917-8b4215282d6d'
+  module:
+    - block_content
+    - node
+  theme:
+    - custom_theme
+id: custom_theme_pageblockshowsthepage
+theme: custom_theme
+region: branding
+weight: -2
+provider: null
+plugin: 'block_content:a6d8dca6-68fc-4d81-b917-8b4215282d6d'
+settings:
+  id: 'block_content:a6d8dca6-68fc-4d81-b917-8b4215282d6d'
+  label: 'Page block shows the page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page_custom: page_custom
